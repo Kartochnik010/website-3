@@ -7,11 +7,11 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: rgb(129, 129, 129);
-    transition:0.2s;
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
 }
         .nav-links-animation:hover{
-            color: rgb(116, 116, 116);
+            color: rgb(46, 0, 0);
             }
             .nav-links-animation:hover:before{
                 width: 100%;
@@ -24,11 +24,15 @@
 .navbar-font-custom-links {
     font-family: 'Montserrat', sans-serif !important;
 }
+    .navbar-font-custom-links:hover {
+        color: grey;
+        transition: 0,2s;  
+    }
 
 .custom-carousel {
     height: 60vh;
     background-position: center;
-    
+    background-size: cover;
     
 }
 #carousel-img-1 {background-image: url(https://www.vinterier.ru/pictures/shop/krasivyiy-peiyzag-kartina-maslom-40x30.JPG);}
